@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <form class="form flex-colum" action="./test">
@@ -42,8 +42,8 @@
         <div>
           <input type="checkbox" name="terms" />
           <label for="terms"
-            >I accept the <a href="">Terms of Use</a> $
-            <a href="">Privacy Policy</a>
+            >I accept the <a class="a-terms" href="">Terms of Use</a> &
+            <a class="a-privacy" href="">Privacy Policy</a>
           </label>
         </div>
       </label>
@@ -51,5 +51,8 @@
         <input class="submit" type="submit" value="Register Now" />
       </label>
     </form>
+    <label class="a-sing" for="sing"
+      >Already have an account? <a class="sign-in" href="">Sign in</a>
+    </label>
   </body>
 </html>

@@ -1,7 +1,11 @@
+body {
+  background-color: #63738a;
+}
 h1 {
   overflow: hidden;
   white-space: nowrap;
   font-size: 20px;
+  line-height: 1.5;
   color: #636363;
 }
 h1::before,
@@ -52,6 +56,7 @@ h2 {
   min-height: 450px;
   padding: 1em;
   margin: auto;
+  margin-top: 20vh;
   border: 1px solid rgb(248, 244, 244);
   border-radius: 5px;
   background-color: #f2f3f7;
@@ -68,12 +73,39 @@ form.flex-colum input:focus {
   outline: none;
   box-shadow: inset 0 0 5px #aaa;
 }
+.a-terms,
+.a-privacy {
+  color: #50a583;
+}
+
+.a-terms,
+.a-privacy {
+  text-decoration: none;
+}
+.a-sing,
+.sign-in {
+  color: #fffff8;
+}
+.a-sing {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+  padding: 13px;
+  margin: auto;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.sign-in {
+  margin-left: 10px;
+}
 .submit {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 15px;
   background-color: #53ac53;
   color: white;
+  font-weight: 800;
 }
 .submit:hover {
   background-color: #2b612b;
