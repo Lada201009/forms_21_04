@@ -64,5 +64,11 @@ form.flex-colum input:focus{
   box-shadow: inset 0 0 5px #aaa;
 }
 .submit{
-background-color: #4ba34b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #53ac53; color: white;
+}
+.submit:hover{
+  background-color: #2b612b;;
 }
